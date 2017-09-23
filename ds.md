@@ -847,3 +847,7 @@
 * [《CMU 15-445/645》](http://15445.courses.cs.cmu.edu/fall2017/schedule.html)
 
 介绍:CMU 2017DB课程,数据库SQL, Hash，Tree, Index,Multi-Versioning, two-phase locking, logging, OLTP/OLAP 很赞。
+
+* [《Kudu》](https://kudu.apache.org/kudu.pdf)
+
+介绍:Cloudera开发的Kudu分布式存储，Fast Analytics on Fast 兼顾数据更新实时性和分析速度的存储引擎，可以随机读但主要是针对顺序读做优化，C++实现，用raft协议搞replication。
